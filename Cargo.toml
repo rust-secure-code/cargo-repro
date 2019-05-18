@@ -1,0 +1,19 @@
+[package]
+name        = "cargo-repro"
+description = """
+              Build and verify Rust packages that are reproducible
+              byte-for-byte using a Cargo-driven workflow.
+              """
+version     = "0.0.0"
+authors     = ["Rust Secure Code WG <noreply@securecode.rust-lang.org>"]
+edition     = "2018"
+license     = "Apache-2.0 OR MIT"
+readme      = "README.md"
+repository  = "https://github.com/rust-secure-code/cargo-repro"
+categories  = ["command-line-utilities", "development-tools", "rust-patterns"]
+keywords    = ["cargo", "deterministic", "reproducible", "security", "verifiable"]
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
