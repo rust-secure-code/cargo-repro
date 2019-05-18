@@ -3,9 +3,14 @@
 [![Latest Version][crate-image]][crate-link]
 [![Docs][docs-image]][docs-link]
 ![Apache 2.0/MIT licensed][license-image]
+[![Build Status][build-image]][build-link]
 
 Build and verify Rust packages that are reproducible byte-for-byte using
 a Cargo-driven workflow.
+
+## Requirements
+
+- Rust 1.31+
 
 ## Status
 
@@ -47,6 +52,8 @@ additional terms or conditions.
 [docs-image]: https://docs.rs/cargo-repro/badge.svg
 [docs-link]: https://docs.rs/cargo-repro/
 [license-image]: https://img.shields.io/badge/license-Apache2.0%2FMIT-blue.svg
+[build-image]: https://travis-ci.com/rust-secure-code/cargo-repro.svg?branch=develop
+[build-link]: https://travis-ci.com/rust-secure-code/cargo-repro
 [cc]: https://contributor-covenant.org
 [CODE_OF_CONDUCT.md]: https://github.com/rust-secure-code/cargo-repro//blob/develop/CODE_OF_CONDUCT.md
 [LICENSE-APACHE]: https://github.com/rust-secure-code/cargo-repro/blob/develop/LICENSE-APACHE
