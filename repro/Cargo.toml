@@ -1,8 +1,9 @@
 [package]
-name        = "cargo-repro"
+name        = "repro"
 description = """
-              Build and verify Rust packages that are reproducible
-              byte-for-byte using a Cargo-driven workflow.
+              Support crate for cargo-repro, a tool for building and verifying
+              Rust packages that are reproducible byte-for-byte using a
+              Cargo-driven workflow.
               """
 version     = "0.0.0"
 authors     = ["Rust Secure Code WG <noreply@securecode.rust-lang.org>"]
@@ -17,7 +18,3 @@ keywords    = ["cargo", "deterministic", "reproducible", "security", "verifiable
 maintenance = { status = "experimental" }
 
 [dependencies]
-repro = { version = "0", path = "repro" }
-
-[workspace]
-members = [".", "repro"]

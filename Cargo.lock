@@ -3,4 +3,11 @@
 [[package]]
 name = "cargo-repro"
 version = "0.0.0"
+dependencies = [
+ "repro 0.0.0",
+]
+
+[[package]]
+name = "repro"
+version = "0.0.0"
 
