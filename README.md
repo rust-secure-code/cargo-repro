@@ -5,6 +5,8 @@
 ![Apache 2.0/MIT licensed][license-image]
 [![Build Status][build-image]][build-link]
 
+**NOTE:** This project has been discontinued. If you are interested in the general concept, we suggest you check out [rebuilderd](https://github.com/kpcyrd/rebuilderd/).
+
 Build and verify Rust packages that are reproducible byte-for-byte using
 a Cargo-driven workflow.
 
