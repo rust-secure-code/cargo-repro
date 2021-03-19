@@ -15,17 +15,17 @@ matrix:
   include:
     - name: rustfmt
       script:
-        - cargo fmt -- --check
+        - cargo fmt --all -- --check
     - name: clippy
       script:
-        - cargo clippy
+        - cargo clippy --all
     - name: build
       script:
-        - cargo build --release
+        - cargo build --all --release
     - name: test
       script:
-        - cargo test --release
+        - cargo test --all --release
     - name: test (1.31.0)
       rust: 1.31.0
       script:
-        - cargo test --release
+        - cargo test --all --release
